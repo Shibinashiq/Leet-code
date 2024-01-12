@@ -7,5 +7,9 @@ class Solution(object):
             else:
                 dic[i]=1
         least_repeat=min(dic,key=dic.get)
-        return least_repeat
+        if dic[least_repeat]==1:
+            
+             return least_repeat
+        else:
+            None
         
