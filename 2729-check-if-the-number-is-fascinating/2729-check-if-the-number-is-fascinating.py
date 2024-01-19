@@ -23,6 +23,7 @@ class Solution:
             digit_count=dic.get(a,0)
             if digit_count!=1:
                 return False
+         
         return True
             
 
