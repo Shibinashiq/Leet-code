@@ -3,8 +3,8 @@ class Solution:
         s = len(prices)
 
         max_profit = 0
-        if s < 2:
-            return max_profit
+        # if s < 2:
+        #     return max_profit
 
         min_price = prices[0]
 
